@@ -66,7 +66,7 @@ footer .texto-footer {
 .recetas__varias .cards__recetas__ingredientes__1 h2 {
   color: #3a633f;
 }
-.recetas__varias .cards__recetas__ingredientes__1 h2:hover {
+.recetas__varias .cards__recetas__ingredientes__1:hover {
   background-color: #dff5e2;
   padding-left: 25px;
 }
