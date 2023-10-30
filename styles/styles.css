@@ -57,7 +57,7 @@ footer .texto-footer {
   color: #3a633f;
   font-size: 25px;
 }
-.recetas__varias .cards__recetas__titulo__1:hover {
+.recetas__varias .cards__recetas__titulo__1 h2:hover {
   text-decoration: underline;
 }
 .recetas__varias .cards__recetas__ingredientes__1 {
@@ -66,7 +66,7 @@ footer .texto-footer {
 .recetas__varias .cards__recetas__ingredientes__1 h2 {
   color: #3a633f;
 }
-.recetas__varias .cards__recetas__ingredientes__1:hover {
+.recetas__varias .cards__recetas__ingredientes__1 h2:hover {
   background-color: #dff5e2;
   padding-left: 25px;
 }
@@ -100,21 +100,25 @@ footer .texto-footer {
 .momento__receta {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px 20px 50px;
+  padding: 20px 50px;
   margin: 20px;
   text-align: center;
 }
+
 .momento__receta .card {
   background-color: #9CC5A1;
 }
+
 .momento__receta .aceptar__receta:hover {
   background-color: #3a633f;
   border: solid;
 }
+
 .momento__receta .cambiar__receta:hover {
   background-color: red;
   border: solid;
 }
+
 .momento__receta h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #3a633f;
@@ -127,7 +131,7 @@ footer .texto-footer {
 }
 
 .card img {
-  opacity: 30%;
+  opacity: 0.3;
   width: auto;
   height: 200px;
 }
@@ -297,7 +301,7 @@ body {
     grid-template-rows: 1fr;
     column-gap: 0px;
     row-gap: 5px;
-    margin: 0 0px 0 0px;
+    margin: 0;
   }
   main .video {
     display: flex;
@@ -306,9 +310,9 @@ body {
     border-style: solid;
     flex-wrap: nowrap;
     color: #9CC5A1;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
   }
-  main .video .video__inicio {
+  main .video__inicio {
     padding-bottom: 20px;
     width: 300px !important;
     height: 250px !important;
@@ -320,12 +324,11 @@ body {
     color: black;
     font-size: x-small;
   }
-  /* Media querys paginia Recetas */
   .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .recetas__varias {
     grid-template-columns: 1fr;
@@ -339,11 +342,10 @@ body {
     margin-left: 10px;
     margin-right: 5px;
   }
-  /* Media querys paginia planifica */
   .momento__receta {
     display: grid;
     justify-content: center;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
     margin: 20px;
     text-align: center;
   }
@@ -370,21 +372,21 @@ body {
   }
 }
 @media (min-width: 481px) and (max-width: 750px) {
-  .video {
+  main .video {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-style: solid;
     flex-wrap: nowrap;
     color: #9CC5A1;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
   }
-  .video__inicio {
+  main .video__inicio {
     padding-bottom: 20px;
     width: 450px !important;
     height: 400px !important;
   }
-  .grid__recetas {
+  main .grid__recetas {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -392,7 +394,7 @@ body {
     row-gap: 5px;
     margin: 0 0px 0 0px;
   }
-  .nav-link {
+  header .nav-link {
     background-color: #9CC5A1;
   }
   .d-flex {
@@ -405,10 +407,10 @@ body {
     height: 100px;
   }
   .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .recetas__varias {
     grid-template-columns: 1fr;
@@ -431,24 +433,23 @@ body {
   }
   .momento__receta {
     display: grid;
-    padding: 20px;
     justify-content: center;
   }
   .momento__receta .card {
     margin-top: 15px;
   }
 }
-@media (min-width: 750px) and (max-width: 1127px) {
-  .video {
+@media (min-width: 751px) and (max-width: 1127px) {
+  main .video {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-style: solid;
     flex-wrap: nowrap;
     color: #9CC5A1;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
   }
-  .video__inicio {
+  main .video__inicio {
     padding-bottom: 20px;
     width: 700px !important;
     height: 400px !important;
@@ -472,10 +473,10 @@ body {
     max-width: 100% !important;
     height: auto !important;
   }
-  .grid__recetas {
+  main .grid__recetas {
     display: block;
   }
-  .nav-link {
+  header .nav-link {
     background-color: #9CC5A1;
   }
   .momento__receta {
