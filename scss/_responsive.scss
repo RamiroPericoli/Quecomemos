@@ -5,25 +5,21 @@
         align-items: normal;
         height: 100px;
     }
-
     header .nav-link {
         font-weight: bold;
         font-style: italic;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         background-color: rgba(156, 197, 161, 0.8);
     }
-
     header .logo__marca {
         width: auto;
         height: 60px !important;
         margin-left: 20px !important;
         margin-top: 20px;
     }
-
     main {
         background-color: white;
     }
-
     main .grid__recetas {
         display: grid;
         grid-template-columns: 1fr;
@@ -32,7 +28,6 @@
         row-gap: 5px;
         margin: 0;
     }
-
     main .video {
         display: flex;
         flex-direction: column;
@@ -42,44 +37,36 @@
         color: #9CC5A1;
         margin: 0;
     }
-
     main .video__inicio {
         padding-bottom: 20px;
         width: 300px !important;
         height: 250px !important;
     }
-
     .redes-sociales {
         justify-content: space-around;
     }
-
     .texto-footer {
         color: black;
         font-size: x-small;
     }
-
     .container {
         padding-right: 0;
         padding-left: 0;
         margin-left: 0;
         margin-right: 0;
     }
-
     .recetas__varias {
         grid-template-columns: 1fr;
         @include cambiarColores;
     }
-
     .cards__recetas__ingredientes__1 {
         justify-content: none;
         margin-left: 10px;
     }
-
     .cards__recetas__instrucciones__1 {
         margin-left: 10px;
         margin-right: 5px;
     }
-
     .momento__receta {
         display: grid;
         justify-content: center;
@@ -87,34 +74,28 @@
         margin: 20px;
         text-align: center;
     }
-
     .momento__receta .card {
         background-color: #d8f7dc;
         margin-top: 20px;
     }
-
     .main-nosotros {
         display: block;
         justify-content: space-between;
     }
-
     .main-nosotros .estilos-nosotros {
         margin-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
     }
-
     .tamanio__maps {
         width: 300px !important;
         height: 300px !important;
     }
-
     .foto-nosotros {
         max-width: 100% !important;
         height: auto !important;
     }
 }
-
 @media (min-width: 481px) and (max-width: 750px) {
     main .video {
         display: flex;
@@ -125,13 +106,11 @@
         color: #9CC5A1;
         margin: 0;
     }
-
     main .video__inicio {
         padding-bottom: 20px;
         width: 450px !important;
         height: 400px !important;
     }
-
     main .grid__recetas {
         display: grid;
         grid-template-columns: 1fr;
@@ -140,53 +119,43 @@
         row-gap: 5px;
         margin: 0 0px 0 0px;
     }
-
     header .nav-link {
         background-color: #9CC5A1;
     }
-
     .d-flex {
         display: none !important;
     }
-
     header {
         background-color: white;
         justify-content: space-around;
         align-items: normal;
         height: 100px;
     }
-
     .container {
         padding-right: 0;
         padding-left: 0;
         margin-left: 0;
         margin-right: 0;
     }
-
     .recetas__varias {
         grid-template-columns: 1fr;
         background: linear-gradient(#d8f7dc, #83a587);
     }
-
     .cards__recetas__ingredientes__1 {
         justify-content: none;
         margin-left: 10px;
     }
-
     .cards__recetas__instrucciones__1 {
         margin-left: 10px;
         margin-right: 5px;
     }
-
     .main-nosotros {
         display: block;
     }
-
     .foto-nosotros {
         max-width: 100% !important;
         height: auto !important;
     }
-
     .momento__receta {
         display: grid;
         justify-content: center;

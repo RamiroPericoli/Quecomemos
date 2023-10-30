@@ -4,7 +4,6 @@
     font-size: xxx-large;
     text-align: center;
 }
-
 .momento__receta {
     display: flex;
     justify-content: space-between;
@@ -12,32 +11,26 @@
     margin: 20px;
     text-align: center;
 }
-
 .momento__receta .card {
     background-color: #9CC5A1;
 }
-
 .momento__receta .aceptar__receta:hover {
     background-color: #3a633f;
     border: solid;
 }
-
 .momento__receta .cambiar__receta:hover {
     background-color: red;
     border: solid;
 }
-
 .momento__receta h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #3a633f;
     font-size: x-large;
 }
-
 .card-body a {
     color: white;
     background-color: #3a633f;
 }
-
 .card img {
     opacity: 0.3;
     width: auto;
