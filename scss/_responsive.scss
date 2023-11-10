@@ -96,6 +96,10 @@
         height: auto !important;
     }
 }
+.formulario {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 @media (min-width: 481px) and (max-width: 750px) {
     main .video {
         display: flex;
